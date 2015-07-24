@@ -64,7 +64,7 @@ describe("Persistent Node Chat Server", function() {
     });
   });
 
-  it("Should output all messages from the DB", function(done) {
+  xit("Should output all messages from the DB", function(done) {
     // Let's insert a message into the db
        var queryString = "";
        var queryArgs = [];

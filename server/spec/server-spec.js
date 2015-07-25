@@ -23,7 +23,8 @@ describe("Persistent Node Chat Server", function() {
      * (or repeated runs of the tests) won't screw each other up: */
     dbConnection.query("truncate " + tablename, done);
   });
-
+    // probably drop table
+    // DROP DATABASE CHAT 
   afterEach(function() {
     dbConnection.end();
   });

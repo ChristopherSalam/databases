@@ -1,0 +1,17 @@
+{
+  "name": "2015-06-databases",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ChristopherSalam/2015-06-databases",
+  "authors": [
+    "ChristopherSalam <christopher.salam@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ]
+}
